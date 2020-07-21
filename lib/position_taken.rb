@@ -2,8 +2,6 @@
 board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
 def position_taken?(board, index)
   if board[index] == "X" || "O" 
-    true
+    puts "true"
   end
 end
-true_or_false? = position_taken?(board, 0).to_s
-puts true_or_false?
