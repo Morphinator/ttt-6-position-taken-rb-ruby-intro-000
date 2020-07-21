@@ -7,4 +7,5 @@ def position_taken?(board, index)
     true
   end
 end
-position_taken?(board, 0)
+true_or_false? = position_taken?(board, 0)
+puts true_or_false?
