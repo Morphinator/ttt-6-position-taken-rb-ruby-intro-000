@@ -7,5 +7,5 @@ def position_taken?(board, index)
     true
   end
 end
-true_or_false? = position_taken?(board, 0).string
+true_or_false? = position_taken?(board, 0).to_s
 puts true_or_false?
